@@ -19,6 +19,7 @@ public class Product implements java.io.Serializable {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long productId;
+	
 	private String name;
 	private String description;
 	private Long price;
