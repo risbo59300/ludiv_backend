@@ -2,6 +2,6 @@
 <!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.org/dtd/hibernate-reverse-engineering-3.0.dtd" >
 
 <hibernate-reverse-engineering>
-  <table-filter match-schema="public" match-name="product"/>
-  <table-filter match-schema="public" match-name="users"/>
+	<table-filter match-name="product" match-schema="public"></table-filter>
+	<table-filter match-name="users" match-schema="public"></table-filter>
 </hibernate-reverse-engineering>
